@@ -23,6 +23,7 @@ class PaintApp:
 
 root = tk.Tk()
 root.geometry("800x600")  
-root.resizable(False, False)  
+root.resizable(False, False)
+root.title("PyBrush")  
 app = PaintApp(root)
 root.mainloop()
