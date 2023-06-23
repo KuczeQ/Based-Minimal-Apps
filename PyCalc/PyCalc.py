@@ -31,7 +31,7 @@ class CalculatorApp(tk.Tk):
             '0', '.', '=', '+',
             'sqrt', 'sin', 'cos', 'tan',
             'log', 'exp', 'pi',
-            'C'  # Przycisk "C" do czyszczenia
+            'C'  
         ]
 
         row = 0
