@@ -4,7 +4,7 @@ import math
 class CalculatorApp(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
-        self.title('Kalkulator')
+        self.title('PyCalc')
         self.configure_app_window()
 
         self.current_operation = ''
